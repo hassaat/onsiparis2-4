@@ -51,7 +51,7 @@ st.markdown(f"""
     """, unsafe_allow_html=True)
 
 # --- 3. VERİ BAĞLANTISI ---
-URL = "https://script.google.com/macros/s/AKfycbwGcGo3rnfiYfQO1lr5jpzxe6xs02j9gJEzzHjbv6xZacCLfKLBugBKiLlzUZkMGt-j/exec"
+URL = "https://script.google.com/macros/s/AKfycbzQ9E53ylnEQjexKwW1lJvLzgL9V4394MnPctAP1hdu1SlB0erBX6tE_n9j1_CYInvr/exec"
 
 @st.cache_data(ttl=30, show_spinner=False)
 def verileri_yukle():
